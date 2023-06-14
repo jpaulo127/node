@@ -1,0 +1,29 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "projeto para gerenciamento de contatos",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack serve --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaulo127/node.git"
+  },
+  "author": "joao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaulo127/node/issues"
+  },
+  "homepage": "https://github.com/jpaulo127/node#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
